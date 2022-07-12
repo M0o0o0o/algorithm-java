@@ -32,7 +32,6 @@ public class Main {
         }
 
         Collections.sort(diff);
-        System.out.println(diff.toString());
         int ans = 0;
         for (int i = 0; i < n - k; i++) {
             ans += diff.get(i);
