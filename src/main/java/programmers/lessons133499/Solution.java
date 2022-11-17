@@ -24,6 +24,7 @@ class Solution {
                 if (sb.substring(0, canSay[i].length()).equals(canSay[i])) {
                     exceptIdx = i;
                     isMatched = true;
+
                     sb.replace(0, canSay[i].length(), "");
                     break;
                 }
