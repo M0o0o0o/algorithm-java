@@ -10,7 +10,10 @@ import java.util.Queue;
 public class zero행렬 {
     int[] dx = {0, 1, 0, -1};
     int[] dy = {1, 0, -1, 0};
+
     public int[][] solve(int[][] board) {
+
+
         Queue<int[]> q = new LinkedList<>();
         int n = board.length;
         int m = board[0].length;
